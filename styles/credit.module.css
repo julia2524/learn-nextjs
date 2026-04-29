@@ -1,0 +1,12 @@
+.credit {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 20px;
+  place-items: center;
+}
+
+.credit img {
+  max-width: 100%;
+  min-height: 100%;
+  border-radius: 10px;
+}
