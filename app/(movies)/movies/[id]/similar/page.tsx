@@ -1,6 +1,6 @@
-import { API_KEY, BASE_URL } from "../../../../(home)/page";
 import MovieCard from "../../../../../components/movie-card";
 import styles from "../../../../../styles/movie-similar.module.css";
+import { API_KEY, BASE_URL } from "../../../../constants";
 export const metadata = {
   title: "Similar",
 };

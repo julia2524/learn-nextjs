@@ -1,6 +1,6 @@
-import { API_KEY, BASE_URL } from "../../../../(home)/page";
 import Credit from "../../../../../components/credit";
 import styles from "../../../../../styles/credits.module.css";
+import { API_KEY, BASE_URL } from "../../../../constants";
 
 export const metadata = {
   title: "Credits",

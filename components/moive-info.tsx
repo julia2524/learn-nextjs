@@ -1,7 +1,7 @@
-import { API_KEY, BASE_URL } from "../app/(home)/page";
 import { IMG_PATH } from "./movie";
 import styles from "../styles/movie-info.module.css";
 import Link from "next/link";
+import { API_KEY, BASE_URL } from "../app/constants";
 
 export async function getMovieInfo(id: string) {
   const API_URL = `${BASE_URL}/${id}?api_key=${API_KEY}`;
